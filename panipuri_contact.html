@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <style>
+                *{
+        padding:0;
+        margin:0;
+        font-family: sans-serif;
+    }
+    header{
+        display:flex;
+    margin-top: 10px;
+        align-items: center;
+    background-color: gold;
+    
+        text-align: center;
+        justify-content: center;
+        
+    } 
+    header img{
+        width:70px;
+        height:70px;
+    }
+    header h1{
+        margin: 0 auto;
+        text-shadow: 3px;
+        
+    }
+    nav{
+    
+        padding:10px;
+        margin:10px;
+    }
+    nav ul{
+        display:flex;
+    }
+    nav ul li {
+        list-style-type: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        padding:10px 30px;
+        color:black
+    }
+    nav ul li a:hover{
+        background-color: gold;
+        color:white;
+    }
+    .contactt{
+        background-color: plum;
+        color:white;
+    }
+
+
+    .footers{
+    margin-top:200px;
+    width:100%;
+    padding:100px 15%;
+    background-color: #333;
+    color:#efefef;
+    display:flex;
+}
+.footers div{
+    text-align: center;
+    
+
+}
+.col-2{
+    flex-grow: 0.5;
+}
+.footers div h3{
+    font-weight: 300;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+
+}
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width:400px;
+    height:45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 40px;
+    outline:none;
+    border:none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #FFF;
+    color:#FFF;
+    border-radius: 30px;
+    padding:10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.social-media{
+    margin-top: 30px;
+}
+social-media i{
+    font-size:22px;
+    margin:10px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/panipurii/Panipuri/panipuri.jpg" alt="donut">
+        <h1>Golgappa Lo</h1>
+
+    </header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PaniPuri_About.html">About</a></li>
+        <li><a href="Panipuri_recipe.html">Recipe</a></li>
+        <li><a href="panipuri_menu.html">Menu</a></li>
+        <li><a href="#" class="contactt">Contact</a></li>
+    </ul>
+    </nav>
+    <footer>
+        <div class="footers">
+            <div class="col-1">
+                <h3>Use ful links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Recipe</a>
+                <a href="#">Menu</a>
+                
+            </div>
+            <div class="col-2">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="Submit">Subscribe Now</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>Contact</h3>
+                <p>123, ABC road, RMD 5 <br> Kanchanpur</p>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
